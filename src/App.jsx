@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './components/navComponent'
 import HeroSection from './components/heroSectionComponent';
 import AboutMe from './components/aboutMeComponent';
+import Contact from './components/contactComponent';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav/>
       <HeroSection/>
       <AboutMe/>
+      <Contact/>
 
     </div>
   );
