@@ -1,8 +1,54 @@
-.contact{
+.contacto {
         background-color: #f7f7f7;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+}
+
+.contacto h2 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+        text-align: center;
+}
+
+.contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        max-width: 600px;
+}
+
+.contact-form label {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+}
+
+.contact-form button[type="submit"] {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+        background-color: #3e8e41;
+        cursor: pointer;
 }
